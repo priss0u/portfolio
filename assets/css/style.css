@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*  {
+    /* Inclut le padding et la bordure dans la largeur et la hauteur de l'élément.
+      Cela simplifie le calcul des tailles et évite les débordements inattendus. */
+    box-sizing: border-box;
+    /* Aligne les éléments sur la ligne de base du texte environnant, pour un rendu plus cohérent. */
+    vertical-align: baseline;
+    margin: 0 auto; 
+}
+
+.col_1 {width: 8.333333%;}
+.col_2 {width: 16.666666%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.333333%;}
+.col_5 {width: 41.666666%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.333333%;}
+.col_8 {width: 66.666666%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.333333%;}
+.col_11 {width:91.666666%;}
+.col_12 {width: 100%;}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body{
+    background: url(../img/ordinateur.jpg);
+    background-size: 300px;
+}
+
+header {
+    height: 200px;
+    margin: 30px;
+    background-color: #F2E9C5;
+    border-radius: 10px 100px / 120px;
+}
+
+.navbar{
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 60px;
+
+}
+
+.navbar a{
+    color: #F2E9C5;
+    font-size: 27px;
+    font-family: "Luckiest Guy", cursive;   
+}
+
+h1{
+    padding: 60px;
+    font-family:  "Honk", system-ui;
+    margin-left: 180px;
+    font-size: 60px;
+
+}
+
+h2{
+    font-family:  "Honk", system-ui;
+    padding: 60px;
+    margin-left: 180px;
+    font-size: 40px;
+}
+
+.femme2{
+    width: 20%;
+    margin-left: 250px;
+}
+
+.home{
+   background-color:#F2E9C5;
+   font-family:"Sansation", sans-serif;
+   position: absolute;
+   top: 45%;
+   right: 40px;
+   border-radius: 10px 100px / 120px;
+   padding: 100px;
+   background-color: #F2E9C5;
+   
+
+}
+
+.home-content{
+   display: flex;
+   flex-direction: column;
+  
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    background-color: #F2E9C5;
+    border-radius: 10px 100px / 120px;
+}
+
+.row-skills{
+    font-size: 60px;
+    margin: 40px;
+}
+
+
+
+
+
+
